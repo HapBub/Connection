@@ -13,7 +13,7 @@ with socket.socket (socket.AF_INET, socket.SOCK_STREAM) as client:
  
     # send some data
 
-    data = bytes (f"GET /connect.html HTTP/1.1\r\nHost: {target_host}\r\n\r\n",'UTF=8')
+    data = bytes (f"GET /connect.html HTTP/1.1\r\nHost: {target_host}\r\n\r\n",'UTF-8')
     client.sendall (data)
 
     # recieve some data
