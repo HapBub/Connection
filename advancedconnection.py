@@ -6,7 +6,7 @@ import string
 # FILE NAME
 # getting 4 random characters
 
-random = ''.join(random.choices(string.ascii_lowercase, k=4))
+suffix = ''.join(random.choices(string.ascii_lowercase, k=4))
 
 # getting the current time
 
